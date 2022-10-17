@@ -6,15 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=s, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="app.css">
+
+    <style>
+        .winner {
+            color : green;
+        }
+
+        .loser {
+            color: red;
+        }
+    </style>
 </head>
 
 <body>
 
     <h1>Ping pong Score!</h1>
-
-    <img src="https://img.freepik.com/free-vector/table-tennis-concept_23-2148654263.jpg?w=2000" alt="Two people plaing ping pong">
-
     <div>
 
         <h1>SCORE!</h1>
@@ -27,11 +33,22 @@
 
     </div>
 
+    <select name="" id="playto">
+        <option value="3">3</option>
+        <option value="5">5</option>
+        <option value="7">7</option>
+        <option value="9">9</option>
+        <option value="11">11</option>
+
+    </select>
+
     <div id="btn">
 
         <Button id="player1">Click to add 1 point</Button>
 
         <button id="player2">Click to add 1 point</button>
+
+        <button id="reset">reset</button>
 
     </div>
 
